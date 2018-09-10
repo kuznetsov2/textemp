@@ -76,7 +76,8 @@
 %\doublespacing % Интерлиньяж 2
 %\singlespacing % Интерлиньяж 1
 
-\usepackage{enumitem} % Уменьшение интервалов в списках \begin{itemize}[itemsep=20pt] или \begin{itemize}[noitemsep].
+\usepackage{enumitem} % Уменьшение интервалов в списках 
+\setlist[itemize,enumerate]{noitemsep, topsep=0pt} % Списки без интервалов и отступов
 
 \usepackage{lastpage} % Узнать, сколько всего страниц в документе.
 

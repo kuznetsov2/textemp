@@ -1,1 +1,1 @@
-# basiclogistics
+# template for coursework in LaTEX
